@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.bcht.its</groupId>
+    <artifactId>BCHT_ITS_DATA_GATHERING</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0</version>
+
+    <modules>
+        <module>BCHT_ITS_API</module>
+        <module>BCHT_ITS_COMMONS</module>
+        <module>BCHT_ITS_DS_DH</module>
+        <module>BCHT_ITS_DS_HK</module>
+        <module>BCHT_ITS_DS_SS</module>
+        <!--<module>BCHT_ITS_IIS_CLIENT</module>-->
+        <module>BCHT_ITS_ISS</module>
+        <module>BCHT_ITS_SRC</module>
+        <module>BCHT_ITS_DISS_RMINF</module>
+        <module>BCHT_ITS_DISS_WEBSERVICE_RMINF</module>
+        <module>BCHT_ITS_AMQP</module>
+        <module>Demo</module>
+        <!--<module>BCHT_ITS_COMMONS_SHARE</module>-->
+
+    </modules>
+</project>
